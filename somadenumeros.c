@@ -5,8 +5,8 @@ int main() {
 	
 	int a, b,c;
 	
-	a = 2;
-	b = 3;
+	a = 10;
+	b = 5;
 	c = a+b;
 	
 	printf("a soma de %d + %d = %d", a,b,c);
