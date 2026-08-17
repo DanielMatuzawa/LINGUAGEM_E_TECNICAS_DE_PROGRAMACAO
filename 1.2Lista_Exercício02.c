@@ -7,7 +7,7 @@ int main()
     printf("Digite um numero: ");
     scanf("%lf", &a);
 
-    printf("Em notação científica: %e\n", a);
+    printf("%e\n", a);
 
     return 0;
 }
