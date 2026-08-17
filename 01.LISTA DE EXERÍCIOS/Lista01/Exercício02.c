@@ -1,14 +1,13 @@
-#EXERCÍCIO 1
-
 #include <stdio.h>
+
 int main()
 {
-    int a,b;
-    printf("Digite um número: ");
-    scanf("%d", &a);
-    printf("Digite um segundo número: ");
-    scanf("%d", &b);
+    double a;
 
-printf("seu segundo número foi %d e seu primeiro foi %d", b,a);
+    printf("Digite um numero: ");
+    scanf("%lf", &a);
 
+    printf("%e\n", a);
+
+    return 0;
 }
