@@ -8,9 +8,10 @@ int main()
     printf("Insira tres valores para identificar o maior: ");
     scanf("%d%d%d", &a,&b,&c);
     
-    maiormtempo = ((a+b+c+abs(a-b-c))/3);
+    maiormtempo = ((a+b+abs(a-b))/2);
+    maior = ((maiormtempo+c+abs(maiormtempo-c))/2);
     
-    printf("o maior numero entre |%d|%d|%d| = %d", a,b,c,maiormtempo);
+    printf("o maior numero entre |%d|%d|%d| = %d", a,b,c,maior);
     
     return 0;
 }
