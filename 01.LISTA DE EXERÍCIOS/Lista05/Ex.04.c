@@ -24,7 +24,7 @@ int main() {
     }
 
 
-    printf("\n%d eh o maior\n", maior);
+    printf("\n%d é o maior\n", maior);
 
     return 0;
 }
